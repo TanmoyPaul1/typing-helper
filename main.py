@@ -1,6 +1,11 @@
 import PySimpleGUI as sg
 import random
+import os
 
+if os.path.exists("/home/tanmoypaul/GitHub") == False:
+    print("NOT WORKING")
+    exit(0)
+      
 # sg.Window(title="Hello World", layout=[[]], margins=(100, 50)).read()
 # sg.popup('Welcome to Typer!', 'Click OK to start playing!!', font=("Helvetica", 25))
 
